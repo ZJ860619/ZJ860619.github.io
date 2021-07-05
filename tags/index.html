@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="标签, ZJ">
+    <meta name="keywords" content="文章分类, ZJ">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>标签 | ZJ</title>
+    <title>文章分类 | ZJ</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -361,10 +361,52 @@
             </div>
             <div class="tag-chips">
                 
+                
+                <a href="/tags/SpringCloud%E4%BA%94%E5%A4%A7%E7%BB%84%E4%BB%B6/" title="SpringCloud五大组件: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="SpringCloud五大组件" style="background-color: #F9EBEA;">SpringCloud五大组件
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/SpringBoot%E6%B5%8B%E8%AF%95%E5%8F%91%E5%B8%83%E6%96%87%E7%AB%A0/" title="SpringBoot测试发布文章: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="SpringBoot测试发布文章" style="background-color: #F5EEF8;">SpringBoot测试发布文章
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
             </div>
         </div>
     </div>
 </div>
+
+    
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
+
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"SpringCloud五大组件","weight":1,"link":"/tags/SpringCloud五大组件/"},{"text":"SpringBoot测试发布文章","weight":1,"link":"/tags/SpringBoot测试发布文章/"}], {
+        autoResize: true
+    });
+</script>
 
     
 
@@ -434,7 +476,7 @@
                 <span id="year">2019-2021</span>
             
             <span id="year">2019</span>
-            <a href="/about" target="_blank">John Doe</a>
+            <a href="/about" target="_blank">Zzj</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>

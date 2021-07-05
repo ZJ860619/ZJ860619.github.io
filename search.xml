@@ -4,13 +4,38 @@
   
     
     <entry>
-      <title>ZJ&#39;s blog</title>
+      <title>SpringCloud</title>
+      <link href="/2021/07/05/SpringCloud/"/>
+      <url>/2021/07/05/SpringCloud/</url>
+      
+        <content type="html"><![CDATA[<p>解决session共享问题</p><p>存储到客户端存储session    </p><p>缓存nosql数据库</p><p>使用分库分表解决问题 会带来业务层的逻辑问题</p><p>NoSql数据库 非关系型的数据库</p><p>存储数据格式是以key-value格式存储 提高了数据库的扩展能力</p><p>NoSQL使用场景</p><p>1.对数据高并发的情况下</p><ol start="2"><li>Mencache Redis MongoDB</li></ol><p>安装redis6</p><p>1.部署之后</p><p>记性make install 安装</p><p>redis关闭</p><p>showdown</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> SpringCloud五大组件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试博客发布文章</title>
       <link href="/2021/07/02/ZJ-s-blog/"/>
       <url>/2021/07/02/ZJ-s-blog/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h3 id="接着在你博客站点文件夹下右键空白处，选择Git-Bash-Here，输入-hexo-g-完整命令为hexo-generate-，用于生成静态文件"><a href="#接着在你博客站点文件夹下右键空白处，选择Git-Bash-Here，输入-hexo-g-完整命令为hexo-generate-，用于生成静态文件" class="headerlink" title="接着在你博客站点文件夹下右键空白处，选择Git Bash Here，输入 hexo g (完整命令为hexo generate)，用于生成静态文件"></a>接着在你博客站点文件夹下右键空白处，选择Git Bash Here，输入 hexo g (完整命令为hexo generate)，用于生成静态文件</h3><h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h2><h1 id="你好"><a href="#你好" class="headerlink" title="你好"></a>你好</h1><p>如何使用SpringCloud的各个组件</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> SpringBoot测试发布文章 </tag>
+            
+        </tags>
       
     </entry>
     
