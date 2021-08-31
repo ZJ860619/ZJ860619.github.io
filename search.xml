@@ -4,6 +4,114 @@
   
     
     <entry>
+      <title>title</title>
+      <link href="/2021/08/31/title/"/>
+      <url>/2021/08/31/title/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>面经</title>
+      <link href="/2021/08/05/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/"/>
+      <url>/2021/08/05/%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h3 id="进入正题"><a href="#进入正题" class="headerlink" title="进入正题"></a>进入正题</h3><h2 id="1-Java八大类型基础"><a href="#1-Java八大类型基础" class="headerlink" title="1.Java八大类型基础"></a>1.Java八大类型基础</h2><h2 id="2-ArrayList与LinkedList的区别"><a href="#2-ArrayList与LinkedList的区别" class="headerlink" title="2.ArrayList与LinkedList的区别"></a>2.ArrayList与LinkedList的区别</h2><h2 id="3-SQL事务"><a href="#3-SQL事务" class="headerlink" title="3.SQL事务"></a>3.SQL事务</h2><h2 id="4-支付流程"><a href="#4-支付流程" class="headerlink" title="4.支付流程"></a>4.支付流程</h2>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 面经 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Game之遇见</title>
+      <link href="/2021/08/05/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E7%9A%84%E5%82%BB%E7%93%9C/"/>
+      <url>/2021/08/05/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E7%9A%84%E5%82%BB%E7%93%9C/</url>
+      
+        <content type="html"><![CDATA[<h2 id="遇见则遇见-遇见需真诚对待-遇见是美好"><a href="#遇见则遇见-遇见需真诚对待-遇见是美好" class="headerlink" title="遇见则遇见 遇见需真诚对待 遇见是美好"></a>遇见则遇见 遇见需真诚对待 遇见是美好</h2><p>Zzj:她来自安徽淮南市的田家庵区，潘集区，八公山区，大通区，谢家集区。新设 山南新区其中的一个区吧（咱也不敢问）/n<br>未来八成是老师 教英语的 反正就那样吧 一堆散装英文！(…祝你事业有成阿)<br>葛老师 Nice me to you..<br>———–&gt;↓<br><img src="/.com//fj.jpg" alt="你想输入的替代文字"><br>美死 没啥用 不是我的0.0</p><p>多美好的风景↓<br><img src="/.com//fj.jpg" alt="zzz"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>SpringBoot进军代码实战</title>
+      <link href="/2021/07/12/SpringBoot2%E8%BF%9B%E5%86%9B%E5%AE%9E%E6%88%98/"/>
+      <url>/2021/07/12/SpringBoot2%E8%BF%9B%E5%86%9B%E5%AE%9E%E6%88%98/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> SpringBoot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>SpringBoot源码解析</title>
+      <link href="/2021/07/12/SpringBoot2%E5%86%8D%E6%AC%A1%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2021/07/12/SpringBoot2%E5%86%8D%E6%AC%A1%E5%AD%A6%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<p>###SpringBoot再次学习<br>##SpringBoot核心编<br>SpringBoot入门 Hello World<br> .Maven配置 Maven的配置指向是本都的仓库位置<br> .ResponseBody—&gt; RC结合<br> .配置SpringBoot的文件yml<br> 依赖版本 子项目不需要指定版本号</p><p> 依赖的自动原则<br>    1.见到很多的 spring-boot-starter-* : *就某种场景<br>    2.只要引入starter 这个场景的所有常规需要的依赖我们都自动引入<br>    3.去官网查看 SpringBoot支持的starter<br>    4.见到的 *-boot-starter这种情况是第三方支持的依赖<br>版本仲裁原则<br>    当我们的版本号与SpringBoot-starter提供的不满足自己的需求时: 使用自定义版本仲裁</p><p>##自动配置<br>#自动装配详细解析<br>@SpringBootConfiguration 包括<br>@Configuration 代表当前是一个配置类</p><p>##SpringBoot自动装配 分析总结<br>#总结SpringBoot源码分析<br>·SpringBoot先加载所有的自动配置类 xxxxxxAuto<br>·每个自动;配置类按照条件进行生效,默认都会绑定配置文件指定的值. xxxxProperties里面拿。 xxxProperties和配置文件进行了绑定<br>·生效的的配置类就会给容器中装配很多配件<br>·只要容器中有这些组件， 相当于这些功能就有了<br>·定制化配置<br>    <code>用户直接自己@Bean替换底层的组件     </code>用户去看这个组件是获取的配置文件什么值就去修改</p><p>xxxxxxAutoConfiguration —&gt;组件 —&gt;xxxxxProperties里面拿值 —-&gt;application.properties</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> SpringBoot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>开发博客 常用命令</title>
+      <link href="/2021/07/09/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+      <url>/2021/07/09/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h3 id="目前没有样式"><a href="#目前没有样式" class="headerlink" title="目前没有样式"></a>目前没有样式</h3><h2 id="常用的格式"><a href="#常用的格式" class="headerlink" title="常用的格式"></a>常用的格式</h2><p>hexo s 本地运行<br>hexo clean 清楚<br>hexo g 静态文件<br>hexo d 发布服务器的</p><p>mvn install:install-file –Dfile=D:\maven\repos\yuhou1\hysyn-20180129.jar -DgroupId=com.alipay.sdk -DartifactId=hysyn-alipay-sdk-java -Dversion=20180129</p><p>mvn install:install-file –Dfile=hysyn-20180129.jar -DgroupId=com.alipaysdk-DartifactId=hysyn-alipay-sdk-java -Dversion=20180129</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>SpringCloud</title>
       <link href="/2021/07/05/SpringCloud/"/>
       <url>/2021/07/05/SpringCloud/</url>
